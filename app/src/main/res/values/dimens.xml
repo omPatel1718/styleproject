@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding">20dp</dimen>
+    <dimen name="editTextSize">48dp</dimen>
+    <dimen name="textViewSize">40dp</dimen>
+    <dimen name="buttonSize">45dp</dimen>
+</resources>
