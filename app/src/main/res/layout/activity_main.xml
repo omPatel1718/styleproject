@@ -12,84 +12,86 @@
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <Space
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/padding" />
+            android:layout_width="@dimen/paddingWidth"
+            android:layout_height="@dimen/paddingHeight" />
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="40dp"
+            android:layout_width="@dimen/textViewWidth"
+            android:layout_height="@dimen/textViewHeight"
             android:text="Create An Account:"
+
             android:textSize="30sp" />
 
         <Space
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/padding" />
+            android:layout_width="@dimen/paddingWidth"
+            android:layout_height="@dimen/paddingHeight" />
 
         <EditText
             android:id="@+id/editTextTextPersonName2"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/editTextSize"
+            android:layout_width="@dimen/editTextWidth"
+            android:layout_height="@dimen/editTextHeight"
             android:ems="10"
+            android:hint="Name"
             android:inputType="textPersonName"
-            android:minHeight="48dp"
-            android:hint="Name" />
+            android:minHeight="48dp" />
 
         <Space
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/padding" />
+            android:layout_width="@dimen/paddingWidth"
+            android:layout_height="@dimen/paddingHeight" />
 
         <EditText
             android:id="@+id/editTextTextPersonName"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/editTextSize"
+            android:layout_width="@dimen/editTextWidth"
+            android:layout_height="@dimen/editTextHeight"
             android:ems="10"
+            android:hint="Email"
             android:inputType="textPersonName"
-            android:minHeight="48dp"
-            android:hint="Email" />
+            android:minHeight="48dp" />
 
         <Space
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/padding" />
+            android:layout_width="@dimen/paddingWidth"
+            android:layout_height="@dimen/paddingHeight" />
 
         <EditText
             android:id="@+id/editTextTextPassword"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/editTextSize"
+            android:layout_width="@dimen/editTextWidth"
+            android:layout_height="@dimen/editTextHeight"
             android:ems="10"
             android:hint="Password"
             android:inputType="textPassword" />
 
         <Space
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/padding" />
+            android:layout_width="@dimen/paddingWidth"
+            android:layout_height="@dimen/paddingHeight" />
 
         <EditText
             android:id="@+id/editTextPhone"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/editTextSize"
+            android:layout_width="@dimen/editTextWidth"
+            android:layout_height="@dimen/editTextHeight"
             android:ems="10"
             android:hint="Phone Number"
             android:inputType="phone" />
 
         <Space
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/padding" />
+            android:layout_width="@dimen/paddingWidth"
+            android:layout_height="@dimen/paddingHeight" />
 
         <Button
             android:id="@+id/button"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/buttonSize"
+            android:layout_width="@dimen/buttonWidth"
+            android:layout_height="@dimen/buttonHeight"
             android:text="Log In"
             android:textAllCaps="false" />
 
         <Button
             android:id="@+id/button2"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/buttonSize"
+            android:layout_width="@dimen/buttonWidth"
+            android:layout_height="@dimen/buttonHeight"
             android:text="Sign Up"
             android:textAllCaps="false" />
     </LinearLayout>
