@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="spaceHeight">20dp</dimen>
+    <dimen name="spaceHeight">15dp</dimen>
     <dimen name="spaceWidth">332dp</dimen>
 
     <dimen name="editTextHeight">48dp</dimen>
     <dimen name="editTextWidth">332dp</dimen>
     <dimen name="editTextSize">18sp</dimen>
+    <dimen name="editTextPadding">10dp</dimen>
 
     <dimen name="textViewHeight">40dp</dimen>
-    <dimen name="textViewWidth">332dp</dimen>
+    <dimen name="textViewWidth">272dp</dimen>
     <dimen name="textViewSize">30sp</dimen>
-    <dimen name="textViewPadding">30sp</dimen>
+    <dimen name="textViewMargin">30sp</dimen>
 
-    <dimen name="buttonHeight">45dp</dimen>
+    <dimen name="buttonHeight">48dp</dimen>
     <dimen name="buttonWidth">322dp</dimen>
-    <dimen name="buttonPadding">5dp</dimen>
+    <dimen name="buttonMargin">5dp</dimen>
 </resources>
