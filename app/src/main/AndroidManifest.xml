@@ -14,6 +14,9 @@
         android:theme="@style/Theme.StylePractice"
         tools:targetApi="31">
         <activity
+            android:name=".SignUpLogIn"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

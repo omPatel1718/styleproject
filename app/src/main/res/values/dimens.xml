@@ -10,8 +10,8 @@
 
     <dimen name="textViewHeight">40dp</dimen>
     <dimen name="textViewWidth">272dp</dimen>
-    <dimen name="textViewSize">30sp</dimen>
-    <dimen name="textViewMargin">30sp</dimen>
+    <dimen name="textViewSize">25sp</dimen>
+    <dimen name="textViewMargin">20sp</dimen>
 
     <dimen name="buttonHeight">48dp</dimen>
     <dimen name="buttonWidth">275dp</dimen>
